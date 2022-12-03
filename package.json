@@ -1,0 +1,16 @@
+{
+  "homepage": "https://justme2002.github.io/share_screen_rtc/",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index src/index.js"
+  }
+}
