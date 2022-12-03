@@ -4,6 +4,12 @@ const cors = require("cors")
 
 app.use(cors())
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "rtc server"
+  })
+})
+
 
 const { createServer } = require("http")
 const server = createServer(app)
