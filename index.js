@@ -21,7 +21,7 @@ const io = new Server(server, {
     origin: [
       "http://localhost:5173", 
       "http://127.0.0.1:4173",
-      "https://justme2002.github.io/share_screen_rtc/"
+      "https://justme2002.github.io"
     ]
   }
 })
